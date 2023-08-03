@@ -17,30 +17,34 @@
 
 </head>
 
-<body class="">
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example" oncopy="return false" onpaste="return false" oncut="return false">
 <!-- -------------------navbar----------------- -->
     <section>
         <!-- navbar links -->
-        <nav class="navbar navbar-expand-lg main-color d-flex align-items-center fixed-top  mb-4">
+        <nav class="navbar navbar-expand-lg main-color d-flex align-items-center fixed-top  mb-4" id="navbar-example">
             <div class="container text-white">
                 <div class="d-flex justify-content-center align-items-center">
                     <div>
                         <a class="navbar-brand" href="#home"><img src="images/logo.png"  ></a>
                     </div>
                     <div>
-                        <h5 class="fs-3 mb-0"><a class="text-white  text-decoration-none" href="#home">Weather</a></h5>
+                        <h5 class="fs-3 mb-0"><a class="text-white  text-decoration-none " href="#home">Weather</a></h5>
                         <span class="brand mt-0">tagline goes here</span>
                     </div>
                 </div>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+                 <!--~ responsive nav button -->
+                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse" 
+                 data-bs-target="#navbarContent" aria-controls="navbarContent" 
+                 aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon "></span>
+                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarContent">
                     <ul class="navbar-nav  ms-auto mb-2  text-center fs">
                         <li class="nav-item">
-                            <a class="py-2 px-3  mx-3 nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="   py-2 px-3  mx-3 nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                      
                         <li class="nav-item">
@@ -79,7 +83,7 @@
     <!-- -----------search--------------------- -->
     <section class="mt-3">
         <div id="search" class="position-relative  w-50 m-auto">
-            <input id="findCity" type="text" placeholder="Search City..." class="form-control rounded-pill p-3  my-5">
+            <input id="findCity" type="text" placeholder="Search City..." class="form-control rounded-pill p-3  mb-3 mt-5">
             <button type="submit" id="searchBtn" class=" btn main-color text-white rounded-pill position-absolute ">Submit</button>
         </div>
 
