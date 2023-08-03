@@ -1,0 +1,105 @@
+:root {
+    scroll-behavior: smooth;
+    scroll-padding-top: 7em!important;
+}
+
+
+.header-bgc {
+    background-color: #374850;
+    color: #BFC1C8;
+}
+
+.main-color-text {
+    color: #7A72FF;
+}
+/* navbar */
+.nav-item .nav-link {
+    font-weight: 400;
+    color: #ffff;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar span.brand{
+    font-size:12px!important;
+    text-align: center;
+   
+}
+.nav-item a{
+    font-size:18px!important;
+}
+.navbar-brand img {
+    width:3em!important;
+}
+
+/* end-navbar */
+.caption-text p,
+.downloadApp p {
+    line-height: 38px;
+    color: #455a64;
+}
+
+.downloadApp button,
+.subscribe button {
+    transition: all 1s;
+}
+
+.downloadApp button,
+.subscribe button,#searchBtn {
+    background-color:#6760f8ef;
+}
+.downloadApp button:hover,
+.subscribe button:hover {
+    background-color: transparent;
+    color:#7A72FF;
+}
+
+#findCity {
+    border: 1px solid  #7A72FF;
+}
+
+.main-color {
+    background-color: #7A72FF;
+}
+
+.forcast-background-color {
+    background-color: #7A72FF;
+}
+
+.forcast-background-color:hover {
+    background-color:#6760f8ef;
+}
+
+#searchBtn {
+    right: 10px;
+    top: 5px;
+    padding: 10px 20px;
+}
+.caption-text p {
+    font-size:18px!important;
+}
+
+/* ---------footer----------- */
+
+footer {
+    background-color: #374850;
+
+}
+
+footer h6{
+    font-size: 14px!important;
+}
+
+
+.socialMediaIcons i {
+   
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.socialMediaIcons i:hover {
+    color: #7A72FF;
+}
+
