@@ -1,7 +1,8 @@
 :root {
     scroll-behavior: smooth;
-    scroll-padding-top: 7em!important;
+    scroll-padding-top: 4.5em!important;
 }
+
 
 
 .header-bgc {
@@ -54,6 +55,13 @@
     color:#7A72FF;
 }
 
+.collapse .active{
+    color:#03011def!important;
+    border: 1px solid white;
+    border-radius: 40%;
+    font-weight: 400!important;
+
+}
 #findCity {
     border: 1px solid  #7A72FF;
 }
